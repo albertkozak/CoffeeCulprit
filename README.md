@@ -1,8 +1,6 @@
 # Passion Project
 
-Coffee Culprit
-
-Concept:
+Concept: (Coffee Culprit)
 
 - Mobile app that can locate local coffee shops based on your location (focuses on independently run businesses avoiding major chains such as Starbucks & Tim Hortons) 
 - Find the closest coffee shop NOW based on your current location with the Coffee Culprit app
