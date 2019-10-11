@@ -14,7 +14,7 @@ Deliverables:
 - Using a tool (ie. Draw.io or Visio), create an entity relationship diagram.
 - Create a high-fidelity prototype that accurately summarizes the different user flows for your must-have features.
 - Create a repository in Github to track the progress of your project. Use the Automated Kanban project template.
-    a. Create and prioritize issues for your must-have features. Recall that you can also add sub-tasks to an issue to help          clearly track what is required to build a feature.
-    b. Create issues for any other general tasks that are not directly related to a feature (ie. investigating hosting                services).
-    c. Add the deliverables above to a README.md file (use Github-flavoured markdown to format the document in a professional manner).
-    d. Add philweier to your repository as a contributor.
+- Create and prioritize issues for your must-have features. Recall that you can also add sub-tasks to an issue to help          clearly track what is required to build a feature.
+- Create issues for any other general tasks that are not directly related to a feature (ie. investigating hosting                services).
+- Add the deliverables above to a README.md file (use Github-flavoured markdown to format the document in a professional manner).
+- Add philweier to your repository as a contributor.
