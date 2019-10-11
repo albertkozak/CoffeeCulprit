@@ -4,7 +4,7 @@ Concept: (Coffee Culprit)
 
 - Mobile app that can locate local coffee shops based on your current location
 - Find the closest coffee shop NOW based on your current location with the Coffee Culprit app
-- For all those coffee lovers out there that want something a little different rather than your local Starbucks / Tim Hortons
+- For all those coffee lovers out there that want something a little different rather than your local Starbucks or Tim Hortons
 
 Deliverables:
 
