@@ -1,6 +1,6 @@
 # System Analysis and Design Final Assignment
 
-## Deliverables:
+## Deliverables (Passion Project):
 
 **1. Clearly articulate and document the application idea for your passion project. This should be summarized with a few sentences and could be communicated over the course of an elevator ride (ie. an Elevator Pitch).**
 
