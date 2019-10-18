@@ -27,7 +27,7 @@
 
 **3. Create a prioritized feature list. Break your features into “Must Have” and “Nice to Have”.**
 
-  * Features (Must-Have):
+  * Features (Must Have):
     * Provides closest coffee shops according to current location
     * List and map view
     * Display shop information (address, phone number, images, hours of operation)
