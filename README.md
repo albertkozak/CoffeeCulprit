@@ -4,7 +4,7 @@
 
 1. Clearly articulate and document the application idea for your passion project. This should be summarized with a few sentences and could be communicated over the course of an elevator ride (ie. an Elevator Pitch).
 
-  * Idea:
+  * **_Idea_**:
     * _Find the closest coffee shops NOW based on your current location with the Coffee Culprit app. For all those coffee lovers out there that want something a little different rather than your local Starbucks / Tim Hortons. This app focuses on independently run coffee shops vs all the major chains._
 
 * User Story: 
