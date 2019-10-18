@@ -50,4 +50,4 @@
   * [X] Create and prioritize issues for your must-have features. Recall that you can also add sub-tasks to an issue to help clearly track what is required to build a feature.
   * [X] Create issues for any other general tasks that are not directly related to a feature (ie. investigating hosting services).
   * [X] Add the deliverables above to a README.md file (use Github-flavoured markdown to format the document in a professional manner).
-  * [X] Add philweier to your repository as a contributor.
+  * [X] Add _philweier_ to your repository as a contributor.
