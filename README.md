@@ -1,4 +1,4 @@
-# Coffee Culprit App
+# Coffee Culprit Mobile App
 
 ## Deliverables (Passion Project):
 
@@ -44,7 +44,11 @@
     * _https://drive.google.com/file/d/1LrilLxzuZRZKJHFjTram3DBF_ELvEPFL/view?usp=sharing_
 
 **5. Create a high-fidelity prototype that accurately summarizes the different user flows for your must-have features.** 
-  * Refer to attached prototype zip file - _Coffee App_ in repository (built with Adobe XD)
+  * Refer to images below or attached prototype zip file - _Coffee App_ in repository (built with Adobe XD)
+  
+  ![picture](images/1.png)
+  ![picture](images/3.png)
+  ![picture](images/2.png)
 
 **6. Create a repository in Github to track the progress of your project. Use the Automated Kanban project template.**
   * [X] Create and prioritize issues for your must-have features. Recall that you can also add sub-tasks to an issue to help clearly track what is required to build a feature.
