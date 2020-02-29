@@ -15,16 +15,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Av-U5-wfs" customClass="AGSMapView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RCE-XP-hpF">
+                                <rect key="frame" x="0.0" y="597" width="375" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="mYn-Lz-LwO"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="v7L-fn-8uL"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="sCs-vW-Cye"/>
+                                </connections>
+                            </pickerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Av-U5-wfs" customClass="AGSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="597"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RCE-XP-hpF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5Zy-nI-ynt"/>
+                            <constraint firstItem="RCE-XP-hpF" firstAttribute="top" secondItem="9Av-U5-wfs" secondAttribute="bottom" id="8SA-3q-jvi"/>
+                            <constraint firstItem="9Av-U5-wfs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="AWQ-sS-aEh"/>
+                            <constraint firstItem="9Av-U5-wfs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HkK-gV-h6J"/>
+                            <constraint firstItem="RCE-XP-hpF" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="I1F-my-Bvh"/>
+                            <constraint firstItem="9Av-U5-wfs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="K4h-J8-OpR"/>
+                            <constraint firstItem="RCE-XP-hpF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gFm-Hm-Xl1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="categoryPicker" destination="RCE-XP-hpF" id="mF5-7d-a7R"/>
                         <outlet property="mapView" destination="9Av-U5-wfs" id="d10-Uw-ORW"/>
                     </connections>
                 </viewController>
