@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FAA863A2409EB02000FCD7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA86392409EB02000FCD7D /* AppDelegate.swift */; };
-		0FAA863C2409EB02000FCD7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA863B2409EB02000FCD7D /* SceneDelegate.swift */; };
-		0FAA863E2409EB02000FCD7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA863D2409EB02000FCD7D /* ViewController.swift */; };
-		0FAA86412409EB02000FCD7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAA863F2409EB02000FCD7D /* Main.storyboard */; };
-		0FAA86432409EB03000FCD7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FAA86422409EB03000FCD7D /* Assets.xcassets */; };
-		0FAA86462409EB03000FCD7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAA86442409EB03000FCD7D /* LaunchScreen.storyboard */; };
-		0FAA86512409EF4C000FCD7D /* ArcGIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAA86502409EF4A000FCD7D /* ArcGIS.framework */; };
-		0FAA86522409EF4C000FCD7D /* ArcGIS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAA86502409EF4A000FCD7D /* ArcGIS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0FEA96602409FDD900B2AC18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA965F2409FDD900B2AC18 /* AppDelegate.swift */; };
+		0FEA96622409FDD900B2AC18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA96612409FDD900B2AC18 /* SceneDelegate.swift */; };
+		0FEA96642409FDD900B2AC18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA96632409FDD900B2AC18 /* ViewController.swift */; };
+		0FEA96672409FDD900B2AC18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEA96652409FDD900B2AC18 /* Main.storyboard */; };
+		0FEA96692409FDDA00B2AC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FEA96682409FDDA00B2AC18 /* Assets.xcassets */; };
+		0FEA966C2409FDDA00B2AC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEA966A2409FDDA00B2AC18 /* LaunchScreen.storyboard */; };
+		0FEA96752409FE0600B2AC18 /* ArcGIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEA96742409FE0600B2AC18 /* ArcGIS.framework */; };
+		0FEA96762409FE0600B2AC18 /* ArcGIS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEA96742409FE0600B2AC18 /* ArcGIS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0FAA86532409EF4D000FCD7D /* Embed Frameworks */ = {
+		0FEA96772409FE0700B2AC18 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0FAA86522409EF4C000FCD7D /* ArcGIS.framework in Embed Frameworks */,
+				0FEA96762409FE0600B2AC18 /* ArcGIS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,68 +32,64 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0FAA86362409EB02000FCD7D /* CoffeeCulprit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeCulprit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FAA86392409EB02000FCD7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FAA863B2409EB02000FCD7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0FAA863D2409EB02000FCD7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0FAA86402409EB02000FCD7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0FAA86422409EB03000FCD7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0FAA86452409EB03000FCD7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0FAA86472409EB03000FCD7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FAA864E2409ECA2000FCD7D /* Kozak */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Kozak; path = ../..; sourceTree = "<group>"; };
-		0FAA864F2409EEB3000FCD7D /* / */ = {isa = PBXFileReference; lastKnownFileType = folder; name = /; path = ../../../..; sourceTree = "<group>"; };
-		0FAA86502409EF4A000FCD7D /* ArcGIS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArcGIS.framework; path = ../../Library/SDKs/ArcGIS/iOS/Frameworks/Dynamic/ArcGIS.framework; sourceTree = "<group>"; };
+		0FEA965C2409FDD900B2AC18 /* CoffeeCulprit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeCulprit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEA965F2409FDD900B2AC18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0FEA96612409FDD900B2AC18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0FEA96632409FDD900B2AC18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0FEA96662409FDD900B2AC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FEA96682409FDDA00B2AC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FEA966B2409FDDA00B2AC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FEA966D2409FDDA00B2AC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FEA96742409FE0600B2AC18 /* ArcGIS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArcGIS.framework; path = ../../../../Library/SDKs/ArcGIS/iOS/Frameworks/Dynamic/ArcGIS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0FAA86332409EB02000FCD7D /* Frameworks */ = {
+		0FEA96592409FDD900B2AC18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FAA86512409EF4C000FCD7D /* ArcGIS.framework in Frameworks */,
+				0FEA96752409FE0600B2AC18 /* ArcGIS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FAA862D2409EB02000FCD7D = {
+		0FEA96532409FDD900B2AC18 = {
 			isa = PBXGroup;
 			children = (
-				0FAA86382409EB02000FCD7D /* CoffeeCulprit */,
-				0FAA86372409EB02000FCD7D /* Products */,
-				0FAA864D2409ECA2000FCD7D /* Frameworks */,
+				0FEA965E2409FDD900B2AC18 /* CoffeeCulprit */,
+				0FEA965D2409FDD900B2AC18 /* Products */,
+				0FEA96732409FE0600B2AC18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		0FAA86372409EB02000FCD7D /* Products */ = {
+		0FEA965D2409FDD900B2AC18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FAA86362409EB02000FCD7D /* CoffeeCulprit.app */,
+				0FEA965C2409FDD900B2AC18 /* CoffeeCulprit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0FAA86382409EB02000FCD7D /* CoffeeCulprit */ = {
+		0FEA965E2409FDD900B2AC18 /* CoffeeCulprit */ = {
 			isa = PBXGroup;
 			children = (
-				0FAA86392409EB02000FCD7D /* AppDelegate.swift */,
-				0FAA863B2409EB02000FCD7D /* SceneDelegate.swift */,
-				0FAA863D2409EB02000FCD7D /* ViewController.swift */,
-				0FAA863F2409EB02000FCD7D /* Main.storyboard */,
-				0FAA86422409EB03000FCD7D /* Assets.xcassets */,
-				0FAA86442409EB03000FCD7D /* LaunchScreen.storyboard */,
-				0FAA86472409EB03000FCD7D /* Info.plist */,
+				0FEA965F2409FDD900B2AC18 /* AppDelegate.swift */,
+				0FEA96612409FDD900B2AC18 /* SceneDelegate.swift */,
+				0FEA96632409FDD900B2AC18 /* ViewController.swift */,
+				0FEA96652409FDD900B2AC18 /* Main.storyboard */,
+				0FEA96682409FDDA00B2AC18 /* Assets.xcassets */,
+				0FEA966A2409FDDA00B2AC18 /* LaunchScreen.storyboard */,
+				0FEA966D2409FDDA00B2AC18 /* Info.plist */,
 			);
 			path = CoffeeCulprit;
 			sourceTree = "<group>";
 		};
-		0FAA864D2409ECA2000FCD7D /* Frameworks */ = {
+		0FEA96732409FE0600B2AC18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0FAA86502409EF4A000FCD7D /* ArcGIS.framework */,
-				0FAA864F2409EEB3000FCD7D /* / */,
-				0FAA864E2409ECA2000FCD7D /* Kozak */,
+				0FEA96742409FE0600B2AC18 /* ArcGIS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,15 +97,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0FAA86352409EB02000FCD7D /* CoffeeCulprit */ = {
+		0FEA965B2409FDD900B2AC18 /* CoffeeCulprit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FAA864A2409EB03000FCD7D /* Build configuration list for PBXNativeTarget "CoffeeCulprit" */;
+			buildConfigurationList = 0FEA96702409FDDA00B2AC18 /* Build configuration list for PBXNativeTarget "CoffeeCulprit" */;
 			buildPhases = (
-				0FAA86322409EB02000FCD7D /* Sources */,
-				0FAA86332409EB02000FCD7D /* Frameworks */,
-				0FAA86342409EB02000FCD7D /* Resources */,
-				0FAA86532409EF4D000FCD7D /* Embed Frameworks */,
-				0FAA86542409F001000FCD7D /* ShellScript */,
+				0FEA96582409FDD900B2AC18 /* Sources */,
+				0FEA96592409FDD900B2AC18 /* Frameworks */,
+				0FEA965A2409FDD900B2AC18 /* Resources */,
+				0FEA96772409FE0700B2AC18 /* Embed Frameworks */,
+				0FEA96782409FE1000B2AC18 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -117,25 +113,25 @@
 			);
 			name = CoffeeCulprit;
 			productName = CoffeeCulprit;
-			productReference = 0FAA86362409EB02000FCD7D /* CoffeeCulprit.app */;
+			productReference = 0FEA965C2409FDD900B2AC18 /* CoffeeCulprit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0FAA862E2409EB02000FCD7D /* Project object */ = {
+		0FEA96542409FDD900B2AC18 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Albert Kozak";
 				TargetAttributes = {
-					0FAA86352409EB02000FCD7D = {
+					0FEA965B2409FDD900B2AC18 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 0FAA86312409EB02000FCD7D /* Build configuration list for PBXProject "CoffeeCulprit" */;
+			buildConfigurationList = 0FEA96572409FDD900B2AC18 /* Build configuration list for PBXProject "CoffeeCulprit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,31 +139,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 0FAA862D2409EB02000FCD7D;
-			productRefGroup = 0FAA86372409EB02000FCD7D /* Products */;
+			mainGroup = 0FEA96532409FDD900B2AC18;
+			productRefGroup = 0FEA965D2409FDD900B2AC18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0FAA86352409EB02000FCD7D /* CoffeeCulprit */,
+				0FEA965B2409FDD900B2AC18 /* CoffeeCulprit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0FAA86342409EB02000FCD7D /* Resources */ = {
+		0FEA965A2409FDD900B2AC18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FAA86462409EB03000FCD7D /* LaunchScreen.storyboard in Resources */,
-				0FAA86432409EB03000FCD7D /* Assets.xcassets in Resources */,
-				0FAA86412409EB02000FCD7D /* Main.storyboard in Resources */,
+				0FEA966C2409FDDA00B2AC18 /* LaunchScreen.storyboard in Resources */,
+				0FEA96692409FDDA00B2AC18 /* Assets.xcassets in Resources */,
+				0FEA96672409FDD900B2AC18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0FAA86542409F001000FCD7D /* ShellScript */ = {
+		0FEA96782409FE1000B2AC18 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -187,31 +183,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0FAA86322409EB02000FCD7D /* Sources */ = {
+		0FEA96582409FDD900B2AC18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FAA863E2409EB02000FCD7D /* ViewController.swift in Sources */,
-				0FAA863A2409EB02000FCD7D /* AppDelegate.swift in Sources */,
-				0FAA863C2409EB02000FCD7D /* SceneDelegate.swift in Sources */,
+				0FEA96642409FDD900B2AC18 /* ViewController.swift in Sources */,
+				0FEA96602409FDD900B2AC18 /* AppDelegate.swift in Sources */,
+				0FEA96622409FDD900B2AC18 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0FAA863F2409EB02000FCD7D /* Main.storyboard */ = {
+		0FEA96652409FDD900B2AC18 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0FAA86402409EB02000FCD7D /* Base */,
+				0FEA96662409FDD900B2AC18 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0FAA86442409EB03000FCD7D /* LaunchScreen.storyboard */ = {
+		0FEA966A2409FDDA00B2AC18 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0FAA86452409EB03000FCD7D /* Base */,
+				0FEA966B2409FDDA00B2AC18 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -219,7 +215,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0FAA86482409EB03000FCD7D /* Debug */ = {
+		0FEA966E2409FDDA00B2AC18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +275,7 @@
 			};
 			name = Debug;
 		};
-		0FAA86492409EB03000FCD7D /* Release */ = {
+		0FEA966F2409FDDA00B2AC18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,7 +329,7 @@
 			};
 			name = Release;
 		};
-		0FAA864B2409EB03000FCD7D /* Debug */ = {
+		0FEA96712409FDDA00B2AC18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -354,7 +350,7 @@
 			};
 			name = Debug;
 		};
-		0FAA864C2409EB03000FCD7D /* Release */ = {
+		0FEA96722409FDDA00B2AC18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -378,25 +374,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0FAA86312409EB02000FCD7D /* Build configuration list for PBXProject "CoffeeCulprit" */ = {
+		0FEA96572409FDD900B2AC18 /* Build configuration list for PBXProject "CoffeeCulprit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FAA86482409EB03000FCD7D /* Debug */,
-				0FAA86492409EB03000FCD7D /* Release */,
+				0FEA966E2409FDDA00B2AC18 /* Debug */,
+				0FEA966F2409FDDA00B2AC18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0FAA864A2409EB03000FCD7D /* Build configuration list for PBXNativeTarget "CoffeeCulprit" */ = {
+		0FEA96702409FDDA00B2AC18 /* Build configuration list for PBXNativeTarget "CoffeeCulprit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FAA864B2409EB03000FCD7D /* Debug */,
-				0FAA864C2409EB03000FCD7D /* Release */,
+				0FEA96712409FDDA00B2AC18 /* Debug */,
+				0FEA96722409FDDA00B2AC18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0FAA862E2409EB02000FCD7D /* Project object */;
+	rootObject = 0FEA96542409FDD900B2AC18 /* Project object */;
 }
