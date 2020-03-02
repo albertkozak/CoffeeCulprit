@@ -9,7 +9,7 @@
 import UIKit
 import ArcGIS
 
-class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, AGSGeoViewTouchDelegate {
+class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UISearchBarDelegate, AGSGeoViewTouchDelegate {
   
   private typealias Category = (title: String, color: UIColor)
   private let categories:
@@ -29,8 +29,13 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
   @IBOutlet weak var mapView: AGSMapView!
   @IBOutlet weak var categoryPicker: UIPickerView!
   
+  // Address Search Engine
+  let geocoder:AGSLocatorTask = AGSLocatorTask(url: URL(string: "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer")!)
+  
   // Map Settings
   private func setupMap() {
+//    setupLocationDisplay()
+    
       mapView.map = AGSMap(basemapType: .navigationVector, latitude: 49.282, longitude: -123.1171, levelOfDetail: 13)
       mapView.touchDelegate = self
       mapView.graphicsOverlays.add(graphicsOverlay)
@@ -109,6 +114,34 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     setupMap()
   }
   
+  // Search bar function
+  func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+      guard let searchText = searchBar.text, !searchText.isEmpty else {
+          print("Nothing to search!")
+          return
+      }
+
+      geocoder.geocode(withSearchText: searchText) { (results, error) in
+          guard error == nil else {
+              print("Error geocoding '\(searchText)': \(error!.localizedDescription)")
+              return
+          }
+
+          guard let firstResult = results?.first, let extent = firstResult.extent else {
+              let alert = UIAlertController(title: "Nothing found",
+                                            message: "No results found for \(searchText)",
+                                            preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { _ in
+                  alert.dismiss(animated: true)
+              }))
+              self.present(alert, animated: true)
+              return
+          }
+
+          self.mapView.setViewpointGeometry(extent)
+      }
+  }
+  
   // Picker view data source
   func numberOfComponents(in pickerView: UIPickerView) -> Int {
       return 1
@@ -140,5 +173,27 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
           }
       }
   }
+  
+  // GPS Tracking Display
+  func setupLocationDisplay() {
+  mapView.locationDisplay.autoPanMode = AGSLocationDisplayAutoPanMode.compassNavigation
+  mapView.locationDisplay.start { [weak self] (error:Error?) -> Void in
+      if let error = error {
+          self?.showAlert(withStatus: error.localizedDescription)
+      }
+  }
 }
+
+// Alert Message for GPS
+private func showAlert(withStatus: String) {
+    let alertController = UIAlertController(title: "Alert", message:
+      withStatus, preferredStyle: UIAlertController.Style.alert)
+  alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertAction.Style.default,handler: nil))
+    present(alertController, animated: true, completion: nil)
+  }
+}
+
+
+
+
 

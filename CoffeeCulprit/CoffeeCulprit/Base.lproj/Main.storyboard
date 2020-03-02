@@ -26,19 +26,30 @@
                                 </connections>
                             </pickerView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Av-U5-wfs" customClass="AGSMapView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="597"/>
+                                <rect key="frame" x="0.0" y="56" width="375" height="541"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="p3s-zD-9mS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="DxW-SH-Fsb"/>
+                                </connections>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="RCE-XP-hpF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5Zy-nI-ynt"/>
+                            <constraint firstItem="p3s-zD-9mS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="607-ng-xnj"/>
+                            <constraint firstItem="9Av-U5-wfs" firstAttribute="top" secondItem="p3s-zD-9mS" secondAttribute="bottom" id="7RU-4U-14k"/>
                             <constraint firstItem="RCE-XP-hpF" firstAttribute="top" secondItem="9Av-U5-wfs" secondAttribute="bottom" id="8SA-3q-jvi"/>
                             <constraint firstItem="9Av-U5-wfs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="AWQ-sS-aEh"/>
                             <constraint firstItem="9Av-U5-wfs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HkK-gV-h6J"/>
                             <constraint firstItem="RCE-XP-hpF" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="I1F-my-Bvh"/>
-                            <constraint firstItem="9Av-U5-wfs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="K4h-J8-OpR"/>
+                            <constraint firstItem="9Av-U5-wfs" firstAttribute="top" secondItem="p3s-zD-9mS" secondAttribute="top" constant="56" id="K4h-J8-OpR"/>
+                            <constraint firstItem="p3s-zD-9mS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TxX-1W-uDZ"/>
                             <constraint firstItem="RCE-XP-hpF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gFm-Hm-Xl1"/>
+                            <constraint firstItem="p3s-zD-9mS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wzU-Ce-6P8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
