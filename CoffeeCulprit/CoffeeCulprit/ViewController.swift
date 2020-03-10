@@ -13,7 +13,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
   
   private typealias Category = (title: String, color: UIColor)
   private let categories:
-    [Category] = [("Coffee shop", .red), ("Food", .orange)]
+    [Category] = [("Coffee shop", .orange)]
+//    [Category] = [("Coffee shop", .brown), ("Food", .orange)]
 
   private let locatorTask = AGSLocatorTask(url: URL(string: "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer")!)
   private var cancelableGeocodeTask: AGSCancelable?
@@ -36,7 +37,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
   private func setupMap() {
 //    setupLocationDisplay()
     
-      mapView.map = AGSMap(basemapType: .navigationVector, latitude: 49.282, longitude: -123.1171, levelOfDetail: 13)
+    mapView.map = AGSMap(basemapType: .lightGrayCanvasVector, latitude: 49.282, longitude: -123.1171, levelOfDetail: 13)
       mapView.touchDelegate = self
       mapView.graphicsOverlays.add(graphicsOverlay)
     
@@ -157,6 +158,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
   
   func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
       findPlaces(forCategory: categories[row])
+    
   }
   
   // GeoView touch delegate
