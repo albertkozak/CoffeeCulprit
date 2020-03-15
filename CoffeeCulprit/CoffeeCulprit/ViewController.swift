@@ -35,9 +35,9 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
   
   // Map Settings
   private func setupMap() {
-//    setupLocationDisplay()
+    setupLocationDisplay()
     
-    mapView.map = AGSMap(basemapType: .lightGrayCanvasVector, latitude: 49.282, longitude: -123.1171, levelOfDetail: 13)
+    mapView.map = AGSMap(basemapType: .darkGrayCanvasVector, latitude: 49.282, longitude: -123.1171, levelOfDetail: 15)
       mapView.touchDelegate = self
       mapView.graphicsOverlays.add(graphicsOverlay)
     

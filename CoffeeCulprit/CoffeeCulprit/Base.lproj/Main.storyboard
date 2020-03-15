@@ -17,7 +17,7 @@
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RCE-XP-hpF">
                                 <rect key="frame" x="0.0" y="577" width="375" height="70"/>
-                                <color key="backgroundColor" red="0.84012798095112529" green="0.84012798095112529" blue="0.84012798095112529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="mYn-Lz-LwO"/>
                                 </constraints>
@@ -32,7 +32,7 @@
                             </view>
                             <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Craving some coffee?" translatesAutoresizingMaskIntoConstraints="NO" id="p3s-zD-9mS">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
-                                <color key="backgroundColor" red="0.87304359008818111" green="0.87304359008818111" blue="0.87304359008818111" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="DxW-SH-Fsb"/>
@@ -63,7 +63,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="924" y="887"/>
+            <point key="canvasLocation" x="1703" y="116"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="C5y-1x-i80">
@@ -105,29 +105,8 @@
             </objects>
             <point key="canvasLocation" x="924" y="116"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Ltf-rP-n94">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PX0-dc-G9d" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="O3q-sT-Gh2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="NXl-ds-lxW"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bC0-Fr-mNH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="138.40000000000001" y="116.49175412293854"/>
-        </scene>
     </scenes>
     <resources>
         <image name="logo2" width="284" height="282"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="muH-Uq-ex8"/>
-    </inferredMetricsTieBreakers>
 </document>
