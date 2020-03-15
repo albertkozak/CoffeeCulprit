@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F83E2CB241ED15300B53FD5 /* mapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F83E2CA241ED15300B53FD5 /* mapButton.swift */; };
 		0FEA96602409FDD900B2AC18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA965F2409FDD900B2AC18 /* AppDelegate.swift */; };
 		0FEA96622409FDD900B2AC18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA96612409FDD900B2AC18 /* SceneDelegate.swift */; };
 		0FEA96642409FDD900B2AC18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA96632409FDD900B2AC18 /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F83E2CA241ED15300B53FD5 /* mapButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapButton.swift; sourceTree = "<group>"; };
 		0FEA965C2409FDD900B2AC18 /* CoffeeCulprit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeCulprit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FEA965F2409FDD900B2AC18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FEA96612409FDD900B2AC18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				0FEA96682409FDDA00B2AC18 /* Assets.xcassets */,
 				0FEA966A2409FDDA00B2AC18 /* LaunchScreen.storyboard */,
 				0FEA966D2409FDDA00B2AC18 /* Info.plist */,
+				0F83E2CA241ED15300B53FD5 /* mapButton.swift */,
 			);
 			path = CoffeeCulprit;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F83E2CB241ED15300B53FD5 /* mapButton.swift in Sources */,
 				0FEA96642409FDD900B2AC18 /* ViewController.swift in Sources */,
 				0FEA96602409FDD900B2AC18 /* AppDelegate.swift in Sources */,
 				0FEA96622409FDD900B2AC18 /* SceneDelegate.swift in Sources */,
