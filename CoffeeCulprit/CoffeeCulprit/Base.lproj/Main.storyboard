@@ -66,7 +66,7 @@
             </objects>
             <point key="canvasLocation" x="716" y="-188"/>
         </scene>
-        <!--Settings-->
+        <!--Support-->
         <scene sceneID="b52-Lt-yA3">
             <objects>
                 <viewController id="4dK-7M-UdK" sceneMemberID="viewController">
@@ -96,7 +96,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bye-wF-PpT"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" image="icons8-job-30" id="wIY-lp-F6U"/>
+                    <tabBarItem key="tabBarItem" title="Support" image="icons8-help-30" id="wIY-lp-F6U"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a2h-Ut-A6c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -149,8 +149,8 @@
     </scenes>
     <resources>
         <image name="coffeelogo" width="170" height="192"/>
+        <image name="icons8-help-30" width="30" height="30"/>
         <image name="icons8-home-24" width="24" height="24"/>
-        <image name="icons8-job-30" width="30" height="30"/>
         <image name="icons8-map-marker-30" width="30" height="30"/>
         <image name="logo2" width="284" height="282"/>
         <image name="support" width="532" height="114"/>
